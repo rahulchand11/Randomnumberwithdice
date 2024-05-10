@@ -17,7 +17,7 @@ rollbtn.addEventListener("click", function(){
     const dicenumber = Math.trunc(Math.random() * 6) +1;
     // console.log(dicenumber);
     imgdice.classList.remove("hidden");
-    imgdice.src = `dice${dicenumber}.png`;
+    imgdice.src = `assest/dice${dicenumber}.png`;
     if(dicenumber !== 1){
         currentscore = currentscore + dicenumber;
         console.log(currentscore);
