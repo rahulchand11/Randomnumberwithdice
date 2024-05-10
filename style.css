@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    background-color: #cc2b5e;
+    /* opacity:0%; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.players-card{
+    border: 1px solid black;
+    border-bottom-right-radius: 0px;
+    border-right: 0px;
+    width: 25%;
+    height: 70%;
+    background-color: rgb(223,173,182);
+   
+}.players-card h1{
+    text-align: center;
+    position: relative;
+    font-family:  sans-serif;
+    top: 20%;
+}
+h3{
+    text-align: center;
+    position: relative;
+    font-family:  sans-serif;
+    top: 30%;
+    font-weight: 200;
+    font-size: 40px;
+    color: #cc2b5e;
+}
+.current-scores{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    margin: auto;
+    height: 30%;
+    position: relative;
+    top: 40%;
+    background-color: #C7365F;
+    border-radius: 20px;
+    /* bottom: 20px; */
+}
+h6{
+    text-align: center;
+    position: relative;
+    font-family:  sans-serif;
+    top: 20%;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.new-game{
+    position: absolute;
+    top: 20%;
+    padding: 15px;
+    border-radius: 20px;
+    width: 10%;
+    font-size: 15px;
+}
+.roll-dice{
+    position: absolute;
+    top: 55%;
+    padding: 15px;
+    border-radius: 20px;
+    width: 10%;
+    font-size: 15px;
+}
+.hold-value{
+    position: absolute;
+    top: 65%;
+    padding: 15px;
+    border-radius: 20px;
+    width: 7%;
+    font-size: 15px;
+}
+.current-score1{
+    position: relative;
+    top:35% ;
+    left: 45%;
+    color: white;
+    font-size: 40px;
+}
+.current-score2{
+    position: relative;
+    top:35% ;
+    left: 45%;
+    font-size: 40px;
+    color: white;
+}
+.diceimg{
+    position: absolute;
+    height: 100px;
+    top: 33%;
+}
+.hidden{
+    display: none;
+}
